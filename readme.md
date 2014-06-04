@@ -6,7 +6,7 @@ Just a wee display site for previewing email designs.
 
 ## Preview 
 
-[View the display site](http://google.com). 
+[View the display site](http://mammothdigital.github.io/Email-Display-Site). 
 
 
 
