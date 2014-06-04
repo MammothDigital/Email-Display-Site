@@ -1,0 +1,84 @@
+
+
+/*******************
+	Colour settings
+*/
+
+/* Brand colours */
+
+$white: #ffffff; 
+$light-grey: #777777;
+$grey: #333333;
+
+$red: #dd4433;
+
+
+/* SASS colour calls */
+
+$base-colour: $red;
+$body-colour: $light-grey;
+$heading-colour: $grey;
+$background-colour: $white;
+
+
+
+
+
+/*******************
+	Website margins 
+	& paddings
+*/
+
+/* Margins & Padding */
+
+$site-margin: 35px;
+$container-padding: 35px;
+  
+
+
+
+/***********************
+	Typography settings
+*/
+ 
+
+/* Montserrat */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$montserrat: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, san-serif;
+
+ 
+/* Typography - SASS calls */
+
+%default-typeface,
+%base-typeface {
+	font-family: $montserrat;
+	font-weight: 400;
+}
+
+%form-typeface {
+	font-family: $montserrat;
+	font-weight: 400;
+}
+
+%heading-typeface {
+	font-family: $montserrat;
+	font-weight: 700;
+}
+
+%light-heading-typeface {
+	font-family: $montserrat;
+	font-weight: 300;
+}
+
+
+
+@import "options";
+@import "functions";
+
+
+
+
+
+
